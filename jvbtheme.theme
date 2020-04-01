@@ -1,8 +1,15 @@
 <?php
 
+use Drupal\Core\Form\FormStateInterface;
+
 /**
  * @file
  * Bootstrap sub-theme.
  *
  * Place your custom PHP code in this file.
  */
+function jvbtheme_form_search_block_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  $b = 22;
+  $a = 1;
+  return $a;
+}
