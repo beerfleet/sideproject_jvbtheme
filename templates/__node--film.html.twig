@@ -1,0 +1,9 @@
+<pre>
+  {{ dump(node.field_genre[0].value) }}
+</pre>
+
+<div class="genre">
+  {% for item in _context.node.field_genre %}
+    <span>{{ item[0].value }}</span>
+  {% endfor %}
+</div>

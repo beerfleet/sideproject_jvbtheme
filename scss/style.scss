@@ -7,18 +7,22 @@ and open the template in the editor.
     Created on : 16 apr. 2020, 12:31:39
     Author     : jvanbiervliet
 */
+
 @font-face {
   font-family: mainFont;
-  src: url(../fonts/Gen-Light.otf); }
+  src: url(../fonts/Gen-Light.otf);
+}
+
 html, body {
-  font-family: mainFont; }
+  font-family: mainFont;
+}
 
 html {
   font-family: mainFont;
-  background-color: #1f1f21; }
+  background-color: #1f1f21;
+}
 
 body {
   margin-top: 0;
-  padding-top: 15px; }
-
-/*# sourceMappingURL=style.css.map */
+  padding-top: 15px;
+}
