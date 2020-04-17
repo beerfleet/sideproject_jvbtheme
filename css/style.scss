@@ -13,13 +13,17 @@ and open the template in the editor.
   src: url(../fonts/Gen-Light.otf);
 }
 
+$font_kleur_main: #322B2B;
+$achtergrond_kleur: #2B0707;
+$kleur_horizontale_rand: #A2A2A2;
+
 html, body {
   font-family: mainFont;
+  color: $font_kleur_main;
 }
 
 html {
-  font-family: mainFont;
-  background-color: #2B0707;
+  background-color: $achtergrond_kleur;
 }
 
 body {
@@ -41,5 +45,9 @@ body {
 @media all and (max-width: 767px) {
   .navbar-nav > li {
     text-align: center;
+    border-top: 1px solid $kleur_horizontale_rand;
+  }
+  .navbar-nav > li:last-child {
+    border-bottom: 1px solid $kleur_horizontale_rand;
   }
 }

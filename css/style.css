@@ -13,10 +13,10 @@ and open the template in the editor.
 }
 html, body {
   font-family: mainFont;
+  color: #322B2B;
 }
 
 html {
-  font-family: mainFont;
   background-color: #2B0707;
 }
 
@@ -38,6 +38,11 @@ body {
 @media all and (max-width: 767px) {
   .navbar-nav > li {
     text-align: center;
+    border-top: 1px solid #A2A2A2;
+  }
+
+  .navbar-nav > li:last-child {
+    border-bottom: 1px solid #A2A2A2;
   }
 }
 
