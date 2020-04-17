@@ -19,10 +19,27 @@ html, body {
 
 html {
   font-family: mainFont;
-  background-color: #1f1f21;
+  background-color: #2B0707;
 }
 
 body {
   margin-top: 0;
   padding-top: 15px;
+}
+
+@media all and (min-width: 768px) {
+  ul.navbar-nav {
+    margin-bottom: 5px;
+  }
+
+  .menu--main .navbar-nav > li > a {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .navbar-nav > li {
+    text-align: center;
+  }
 }
