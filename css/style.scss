@@ -1,8 +1,5 @@
 /*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
+  Mijn stijl
 /*
     Created on : 16 apr. 2020, 12:31:39
     Author     : jvanbiervliet
@@ -26,9 +23,10 @@ html {
   background-color: $achtergrond_kleur;
 }
 
-body {
-  margin-top: 0;
-  padding-top: 15px;
+@media (min-width: 1200px) {
+  .container{
+    max-width: 960px;
+  }
 }
 
 @media all and (min-width: 768px) {
@@ -39,15 +37,5 @@ body {
   .menu--main .navbar-nav > li > a {
     padding-top: 0;
     padding-bottom: 0;
-  }
-}
-
-@media all and (max-width: 767px) {
-  .navbar-nav > li {
-    text-align: center;
-    border-top: 1px solid $kleur_horizontale_rand;
-  }
-  .navbar-nav > li:last-child {
-    border-bottom: 1px solid $kleur_horizontale_rand;
   }
 }
