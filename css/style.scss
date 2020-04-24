@@ -5,47 +5,86 @@
     Author     : jvanbiervliet
 */
 
-@font-face {
-  font-family: mainFont;
-  src: url(../fonts/Gen-Light.otf);
-}
-
-$font_kleur_main: #322B2B;
-$achtergrond_kleur: #2B0707;
-$kleur_horizontale_rand: #A2A2A2;
-
-html, body {
-  font-family: mainFont;
-  color: $font_kleur_main;
-}
-
-html {
-  background-color: $achtergrond_kleur;
-}
-
+/* Layout */
 @media (min-width: 1200px) {
   .container{
     max-width: 960px;
   }
 }
 
+
+/* Modules*/
 @media all and (min-width: 768px) {
   ul.navbar-nav {
     margin-bottom: 5px;
   }
 
-  .menu--main .navbar-nav > li > a {
-    padding-top: 0;
-    padding-bottom: 0;
+  .menu--main {
+    .navbar-nav > li > a {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
   }
 }
 
 .achtergrond-afbeelding {
+  width: 100%;
+  min-height: 100px;
   background-image: url('../images/ETION_HEADER.jpg');  
-  background-repeat: none;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .witte-letters {
   color: white !important;
   font-weight: bold !important;
+}
+
+
+/* Theme */
+$achtergrond-kleur: #FCF2E8;
+$font-kleur-main: #322B2B;
+
+/* blauw */
+$donker-blauw: #004854;
+$mid-blauw: #00879B;
+$licht-blauw: #28AAC5;
+
+/* rood */
+$donker-rood: #70364D;
+$mid-rood: #B3636B;
+$licht-rood: #F28F87;
+
+/* groen */
+$donker-groen: #00574F;
+$mid-groen: #308A73;
+$licht-groen: #73BF9C;
+
+/* bruin */
+$donker-bruin: #7D3B1A;
+$mid-bruin: #CC6E3B;
+$licht-bruin: #F7AB4D;
+
+
+@font-face {
+  font-family: mainFont;
+  src: url(../fonts/Gen-Light.otf);
+}
+
+.navbar-default {
+  .navbar-brand,
+  .navbar-nav > li > a {
+    color:white;
+  }
+}
+
+
+/* Base */
+html, body {
+  font-family: mainFont;
+  color: $font-kleur-main;
+}
+
+body {
+  background-color: $achtergrond-kleur;
 }

@@ -173,7 +173,8 @@
 
 {% if page.footer %}
   {% block footer %}
-    <footer class="footer {{ container }}" role="contentinfo">
+    {#<footer class="footer {{ container }}" role="contentinfo">#}
+    <footer id="footer" class="footer fluid-container" role="contentinfo">
       {{ page.footer }}
     </footer>
   {% endblock %}
