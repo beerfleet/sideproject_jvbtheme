@@ -4,23 +4,20 @@
     Created on : 16 apr. 2020, 12:31:39
     Author     : jvanbiervliet
 */
-/* Layout */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 960px;
-  }
-}
 /* Modules*/
 @media all and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp739\/htdocs\/tests\/drupal8\/sideproject\/web\/themes\/custom\/jvbtheme\/css\/style\.scss}line{font-family:\0000310}}
   ul.navbar-nav {
     margin-bottom: 5px;
   }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp739\/htdocs\/tests\/drupal8\/sideproject\/web\/themes\/custom\/jvbtheme\/css\/style\.scss}line{font-family:\0000315}}
   .menu--main .navbar-nav > li > a {
     padding-top: 0;
     padding-bottom: 0;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp739\/htdocs\/tests\/drupal8\/sideproject\/web\/themes\/custom\/jvbtheme\/css\/style\.scss}line{font-family:\0000322}}
 .achtergrond-afbeelding {
   width: 100%;
   min-height: 100px;
@@ -29,6 +26,7 @@
   background-size: 100%;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp739\/htdocs\/tests\/drupal8\/sideproject\/web\/themes\/custom\/jvbtheme\/css\/style\.scss}line{font-family:\0000330}}
 .witte-letters {
   color: white !important;
   font-weight: bold !important;
@@ -43,19 +41,40 @@
   font-family: mainFont;
   src: url(../fonts/Gen-Light.otf);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp739\/htdocs\/tests\/drupal8\/sideproject\/web\/themes\/custom\/jvbtheme\/css\/style\.scss}line{font-family:\0000367}}
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color: white;
 }
 
 /* Base */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp739\/htdocs\/tests\/drupal8\/sideproject\/web\/themes\/custom\/jvbtheme\/css\/style\.scss}line{font-family:\0000375}}
 html, body {
   font-family: mainFont;
   color: #322B2B;
 }
 
+/* Layout */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp739\/htdocs\/tests\/drupal8\/sideproject\/web\/themes\/custom\/jvbtheme\/css\/style\.scss}line{font-family:\0000383}}
+.verwijder-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp739\/htdocs\/tests\/drupal8\/sideproject\/web\/themes\/custom\/jvbtheme\/css\/style\.scss}line{font-family:\0000389}}
+  .container {
+    max-width: 960px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp739\/htdocs\/tests\/drupal8\/sideproject\/web\/themes\/custom\/jvbtheme\/css\/style\.scss}line{font-family:\0000394}}
 body {
   background-color: #FCF2E8;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp739\/htdocs\/tests\/drupal8\/sideproject\/web\/themes\/custom\/jvbtheme\/css\/style\.scss}line{font-family:\00003100}}
+#footer {
+  background-color: #28AAC5;
 }
 
 /*# sourceMappingURL=style.css.map */

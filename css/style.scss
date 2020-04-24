@@ -5,14 +5,6 @@
     Author     : jvanbiervliet
 */
 
-/* Layout */
-@media (min-width: 1200px) {
-  .container{
-    max-width: 960px;
-  }
-}
-
-
 /* Modules*/
 @media all and (min-width: 768px) {
   ul.navbar-nav {
@@ -85,6 +77,26 @@ html, body {
   color: $font-kleur-main;
 }
 
+
+/* Layout */
+
+.verwijder-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (min-width: 1200px) {
+  .container{
+    max-width: 960px;
+  }
+}
+
 body {
   background-color: $achtergrond-kleur;
+}
+
+$footer-hoogte: 300px;
+
+#footer {
+  background-color: $licht-blauw;
 }
