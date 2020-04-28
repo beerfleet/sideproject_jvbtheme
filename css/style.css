@@ -48,31 +48,53 @@
 }
 
 /* Base */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp739\/htdocs\/tests\/drupal8\/sideproject\/web\/themes\/custom\/jvbtheme\/css\/style\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp739\/htdocs\/tests\/drupal8\/sideproject\/web\/themes\/custom\/jvbtheme\/css\/style\.scss}line{font-family:\0000377}}
 html, body {
   font-family: mainFont;
   color: #322B2B;
 }
 
+/*html,
+body {
+  height: 100%;
+   The html and body elements cannot have any padding or margin. 
+}
+
+ Wrapper for page content to push down footer 
+#wrap {
+  min-height: 100%;
+  height: auto;
+   Negative indent footer by its height 
+  margin: 0 auto -$footer-hoogte;
+   Pad bottom by footer height 
+  padding: 0 0 $footer-hoogte;
+}*/
+/* Set the fixed height of the footer here */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp739\/htdocs\/tests\/drupal8\/sideproject\/web\/themes\/custom\/jvbtheme\/css\/style\.scss}line{font-family:\0000399}}
+#footer {
+  height: 100px;
+  background-color: #f5f5f5;
+}
+
 /* Layout */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp739\/htdocs\/tests\/drupal8\/sideproject\/web\/themes\/custom\/jvbtheme\/css\/style\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp739\/htdocs\/tests\/drupal8\/sideproject\/web\/themes\/custom\/jvbtheme\/css\/style\.scss}line{font-family:\00003105}}
 .verwijder-padding {
   padding-left: 0;
   padding-right: 0;
 }
 
 @media (min-width: 1200px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp739\/htdocs\/tests\/drupal8\/sideproject\/web\/themes\/custom\/jvbtheme\/css\/style\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp739\/htdocs\/tests\/drupal8\/sideproject\/web\/themes\/custom\/jvbtheme\/css\/style\.scss}line{font-family:\00003111}}
   .container {
     max-width: 960px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp739\/htdocs\/tests\/drupal8\/sideproject\/web\/themes\/custom\/jvbtheme\/css\/style\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp739\/htdocs\/tests\/drupal8\/sideproject\/web\/themes\/custom\/jvbtheme\/css\/style\.scss}line{font-family:\00003116}}
 body {
   background-color: #FCF2E8;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp739\/htdocs\/tests\/drupal8\/sideproject\/web\/themes\/custom\/jvbtheme\/css\/style\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp739\/htdocs\/tests\/drupal8\/sideproject\/web\/themes\/custom\/jvbtheme\/css\/style\.scss}line{font-family:\00003120}}
 #footer {
   background-color: #28AAC5;
 }
