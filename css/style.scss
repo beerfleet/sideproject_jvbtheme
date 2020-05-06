@@ -38,6 +38,9 @@ $licht-bruin: #F7AB4D;
       padding-top: 0;
       padding-bottom: 0;
     }
+    li > a {
+      border: 1px white solid;
+    }
   }
 }
 
@@ -95,10 +98,8 @@ html, body {
   padding-right: 0;
 }
 
-@media (min-width: 1200px) {
-  .container{
-    max-width: 960px;
-  }
+.container-fluid {
+  max-width: 960px;
 }
 
 body {

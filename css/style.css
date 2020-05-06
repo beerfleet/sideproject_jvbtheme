@@ -16,7 +16,9 @@
 
   .menu--main .navbar-nav > li > a {
     padding-top: 0;
-    padding-bottom: 0; } }
+    padding-bottom: 0; }
+  .menu--main li > a {
+    border: 1px white solid; } }
 .achtergrond-afbeelding {
   /*background-image: url('../images/ETION_HEADER.jpg');  
   background-color: $donker-blauw;*/
@@ -53,9 +55,9 @@ html, body {
   padding-left: 0;
   padding-right: 0; }
 
-@media (min-width: 1200px) {
-  .container {
-    max-width: 960px; } }
+.container-fluid {
+  max-width: 960px; }
+
 body {
   background-color: #FCF2E8;
   margin-top: 0; }
