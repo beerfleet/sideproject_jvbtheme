@@ -42,12 +42,13 @@ $licht-bruin: #F7AB4D;
 }
 
 .achtergrond-afbeelding {
+  /*background-image: url('../images/ETION_HEADER.jpg');  
+  background-color: $donker-blauw;*/
   width: 100%;
   min-height: 100px;
-  background-image: url('../images/ETION_HEADER.jpg');  
   background-repeat: no-repeat;
   background-size: 100%;
-  background-color: $donker-blauw;
+  background-image: linear-gradient(to right, $donker-blauw , $licht-blauw);
 }
 
 .witte-letters {
