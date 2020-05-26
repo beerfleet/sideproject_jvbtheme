@@ -55,8 +55,8 @@ html, body {
   padding-left: 0;
   padding-right: 0; }
 
-.container-fluid {
-  max-width: 960px; }
+.content-kader {
+  max-width: 1000px; }
 
 body {
   background-color: #FCF2E8;
