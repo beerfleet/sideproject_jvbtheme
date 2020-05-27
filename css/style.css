@@ -16,9 +16,7 @@
 
   .menu--main .navbar-nav > li > a {
     padding-top: 0;
-    padding-bottom: 0; }
-  .menu--main li > a {
-    border: 1px white solid; } }
+    padding-bottom: 0; } }
 .achtergrond-afbeelding {
   /*background-image: url('../images/ETION_HEADER.jpg');  
   background-color: $donker-blauw;*/
