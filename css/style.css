@@ -1,4 +1,5 @@
-/**
- * If using a CSS pre-processor, tell it to overwrite this file. If not, place
- * your custom CSS modifications here.
- */
+@media screen and (min-width: 768px) {
+  body {
+    margin-top: 0; } }
+
+/*# sourceMappingURL=style.css.map */
