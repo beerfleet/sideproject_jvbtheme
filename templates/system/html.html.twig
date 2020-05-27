@@ -63,19 +63,12 @@
       <js-placeholder token="{{ placeholder_token|raw }}">
         </head>
         <body{{ attributes.addClass(body_classes) }}>
-          <div id="wrap" class="container-fluid">
-            <div id="container" class="row">
-              <div class="col-md-12 verwijder-padding">
-                {{ page_top }}
-                <a href="#main-content" class="visually-hidden focusable skip-link">
-                  {{ 'Skip to main content'|t }}
-                </a>
-                {{ page }}
-                {{ page_bottom }}
-              </div>
-            </div>
-          </div>
-
-        <js-bottom-placeholder token="{{ placeholder_token|raw }}">                  
+          <a href="#main-content" class="visually-hidden focusable skip-link">
+            {{ 'Skip to main content'|t }}
+          </a>
+          {{ page_top }}
+          {{ page }}
+          {{ page_bottom }}
+        <js-bottom-placeholder token="{{ placeholder_token|raw }}">
           </body>
           </html>

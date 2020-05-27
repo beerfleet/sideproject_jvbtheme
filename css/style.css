@@ -1,66 +1,8 @@
-/*
-  Mijn stijl
-/*
-    Created on : 16 apr. 2020, 12:31:39
-    Author     : jvanbiervliet
-*/
-/* KLEUREN */
-/* blauw */
-/* rood */
-/* groen */
-/* bruin */
-/* Modules*/
-@media all and (min-width: 768px) {
-  ul.navbar-nav {
-    margin-bottom: 5px; }
-
-  .menu--main .navbar-nav > li > a {
-    padding-top: 0;
-    padding-bottom: 0; } }
-.achtergrond-afbeelding {
-  /*background-image: url('../images/ETION_HEADER.jpg');  
-  background-color: $donker-blauw;*/
-  width: 100%;
-  min-height: 100px;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-image: linear-gradient(to right, #004854, #28AAC5); }
-
-.witte-letters {
-  color: white !important;
-  font-weight: bold !important; }
-
-/* Theme */
-@font-face {
-  font-family: mainFont;
-  src: url(../fonts/Gen-Light.otf); }
-.navbar-default .navbar-brand,
-.navbar-default .navbar-nav > li > a {
-  color: white; }
-
-/* Base */
-html, body {
-  font-family: mainFont;
-  color: #322B2B; }
-
-/* Set the fixed height of the footer here */
-#footer {
-  height: 100px;
-  background-color: #f5f5f5; }
-
-/* Layout */
-.verwijder-padding {
-  padding-left: 0;
-  padding-right: 0; }
-
-.content-kader {
-  max-width: 1000px; }
-
-body {
-  background-color: #FCF2E8;
-  margin-top: 0; }
-
-#footer {
-  background-color: #28AAC5; }
+@media screen and (min-width: 768px) {
+  body {
+    margin-top: 0; } }
+.inhoud {
+  max-width: 660px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */
