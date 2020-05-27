@@ -5,4 +5,7 @@
   max-width: 660px;
   margin: 0 auto; }
 
+nav .content-kader ul {
+  float: right !important; }
+
 /*# sourceMappingURL=style.css.map */
